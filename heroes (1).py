@@ -27,7 +27,7 @@ class Hero:
 
     def attack(self, enemy):
         enemy.hp = enemy.hp - self.damage
-        #print(f'{self.name} наносит {enemy.name} {self.damage} урона\n{self.name} | HP: {self.hp}\n{enemy.name} | HP: {enemy.hp}')
+      
 
 
 
